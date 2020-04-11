@@ -15,7 +15,7 @@ https://payrollservice.herokuapp.com/orders/{id} <br />
 
 #### POST /orders
 Create a new order <br />
-Params: {description: "description", status: ENUM_STATUS} <br />
+Params: {"description": "<description>", "status": "<ENUM_STATUS>"} <br />
 ENUM_STATUS: [IN_PROGRESS, COMPLETED, CANCELLED] <br />
 https://payrollservice.herokuapp.com/orders <br />
 
@@ -36,7 +36,7 @@ https://payrollservice.herokuapp.com/employees <br />
 
 #### POST /employees
 Create a new employee <br />
-Params: {firstName: "<first_name>", lastName: "<last_name>", role: "<role_description>"} <br />
+Params: {"firstName": "<first_name>", "lastName": "<last_name>", "role": "<role_description>"} <br />
 https://payrollservice.herokuapp.com/employees <br />
 
 #### GET /employees/{id}
@@ -45,7 +45,7 @@ https://payrollservice.herokuapp.com/employees/{id} <br />
 
 #### PUT /employees/{id}
 Update or Create a employee <br />
-Params: {firstName: "<first_name>", lastName: "<last_name>", role: "<role_description>"} <br />
+Params: {"firstName": "<first_name>", "lastName": "<last_name>", "role": "<role_description>"} <br />
 https://payrollservice.herokuapp.com/employees/{id} <br />
 
 #### DELETE /employees/{id}
